@@ -1,0 +1,38 @@
+{
+  "name": "@web-alchemy/eleventy-plugin-css",
+  "description": "Eleventy plugin for CSS",
+  "version": "0.0.0",
+  "main": "eleventy-plugin-css.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postpublish": "git push origin --all; git push origin --tags",
+    "postversion": "npm publish",
+    "preversion": "npm test",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-csso": "^6.0.1",
+    "postcss-import": "^15.1.0"
+  },
+  "peerDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-alchemy/eleventy-plugin-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/web-alchemy/eleventy-plugin-css/issues"
+  },
+  "homepage": "https://github.com/web-alchemy/eleventy-plugin-css",
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "css",
+    "postcss"
+  ]
+}
