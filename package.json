@@ -1,7 +1,7 @@
 {
   "name": "@web-alchemy/eleventy-plugin-css",
   "description": "Eleventy plugin for CSS",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "eleventy-plugin-css.js",
   "publishConfig": {
     "access": "public"
